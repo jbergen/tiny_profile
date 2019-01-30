@@ -18,9 +18,6 @@ name: Joseph Bergen
 email: jbergen@gmail.com
 description: Profile Site
 baseurl: "" # the subpath of your site, e.g. /blog
-# url: https://www.josephbergen.com # the base hostname & protocol for your site, e.g. http://example.com
-
-# ga_id: UA-8761227-6
 
 # Build settings
 markdown: kramdown
@@ -29,11 +26,6 @@ plugins:
   - jekyll-sitemap
 sass:
   sass_dir: ./_scss
-defaults:
-  - scope:
-      path: "media"
-    values:
-      image: true
 permalink: pretty
 
 compress_html:
